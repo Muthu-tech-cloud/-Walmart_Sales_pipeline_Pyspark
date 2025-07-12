@@ -127,4 +127,4 @@ detailed_report = customer_report.join(customers_df, on="Customer Id", how="left
     .orderBy("TotalPurchases", ascending=False)
 
 # Show final report
-detailed_report.show(truncate=False)
+detailed_report.filter(col("Name").isNotNull()).show()
