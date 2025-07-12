@@ -1,10 +1,10 @@
-Project Title
-Walmart Sales & Customer Insights with PySpark
+**Project Title
+Walmart Sales & Customer Insights with PySpark**
 
-📊 Objective
+📊 **Objective**
 This project uses Apache Spark (PySpark) to analyze Walmart sales data across various dimensions such as state, product category, and customers. It demonstrates how to read CSV files, clean column names, join datasets, and extract insights through aggregation and filtering.
 
-📁 Input Files
+📁 **Input Files**
 This project expects two CSV files located on your system:
 
 customers.csv
@@ -15,7 +15,7 @@ salestxns.csv
 
 Columns: sales Txn Id, Category Id, Category Name, Product Id, Product Name, Price, Quantity, Customer Id
 
-⚙️ Technologies Used
+⚙️ **Technologies Used**
 Python 3.x
 
 Apache Spark 3.x
